@@ -1,0 +1,108 @@
+\documentclass[oneside,a4paper,12pt]{normas-utf-tex}
+\usepackage[alf, abnt-emphasize=bf, bibjustif, recuo=0cm,abnt-etal-cite=2]{abntcite}
+\usepackage{graphicx}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+
+%=======================================================================
+%Informações Gerais (a serem preenchidas pelo aluno)
+%=======================================================================
+
+%======Instituição e programa
+\instituicao{Universidade Tecnológica Federal do Paraná}
+\departamento{Câmpus Guarapuava}
+\programa{Curso de Tecnologia em Sistemas para Internet}
+
+%======Orientador e Co-orientador (caso necessario)
+%\orientador{Prof. Dr. Nome do Orientador}
+%\coorientador{Prof.\textsuperscript{a} Dra. Nome da Co-orientadora}
+
+%======Alterar o tipo do documento de acordo com a necessidade. 
+\documento{Projeto}
+
+%======Nome para citacoes. Ex: PORFIRIO, Andres.
+%\cita{SOBRENOME, Nome}
+%======Autor principal
+\autor{Rehnan Carlos Carolino Da Silva}
+\autordois{Everton Baroni}
+%\autordois{Autor 2}%use se necessário
+
+%======Título do trabalho (Português e Inglês)
+\titulo{O custo do comércio eletrônico}
+%\title{Work Title}
+
+%======Palavras Chave (Português e Inglês)
+%\palavraschave{PalavraChave1, PalavraChave2}
+%\keywords{KeyWord1, KeyWord2}
+
+%======Comentário da folha de rosto.
+%Este texto pode ser personalizado de acordo com as exigências.
+\comentario{Trabalho entegue ao Prof. Àlamo Alexandre, ministrante da disciplina de 
+Organização de Empresas do \UTFPRprogramadata\ da
+\ABNTinstituicaodata\. , como um dos requisitos parciais para aprovação na disciplina.
+}
+
+%======Local e data
+\local{Guarapuava}
+\data{\the\year}
+
+
+%=======================================================================
+%Início do documento
+%=======================================================================
+
+\begin{document}
+
+%--------------------------------------
+%Elementos Pré-Textuais
+%--------------------------------------
+
+\capa
+
+\folhaderosto
+
+%ficha catalográfica: deve ser impressa separadamente no verso da folha de rosto. somente para a versão final do documento (biblioteca).
+
+
+
+%\begin{resumo}
+%	\input{src/resumo}
+%\end{resumo}
+
+
+
+%Listas. Obrigatório quando constar no desenvolvimento do trabalho. Consultar o documento das normas da ABNT para maiores detalhes.
+%\listadefiguras
+%\listadetabelas
+%\listadesiglas
+%\listadesimbolos
+
+\sumario
+
+%--------------------------------------
+%Texto
+%--------------------------------------
+
+%Incluir arquivos .tex da pasta src/
+\input{src/introduction}
+\input{src/development}
+\input{src/conclusion}
+
+%--------------------------------------
+%Elementos Pós-Textuais
+%--------------------------------------
+
+%Bibliografia, gerada automaticamente a partir do arquivo .bib em conjunto com as citações presentes no texto.
+\bibliography{bib/bibliography}
+
+%Apendices. Use caso necessário. Todos capítulos após o comando \apendice serão tratados como Apêndices. 
+%\apendice
+%\input{src/apendice_a}
+%\input{src/apendice_b}
+
+%Anexos. Use caso necessário. Todos capítulos após o comando \anexo serao tratados como Anexos. 
+%\anexo
+%\input{src/anexo_a}
+%\input{src/anexo_b}
+
+\end{document}

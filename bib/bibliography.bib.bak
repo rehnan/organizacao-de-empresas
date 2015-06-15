@@ -1,0 +1,15 @@
+@misc{ Nobody06,
+       author = "Nobody Jr",
+       title = "My Article",
+       year = "2006" }
+       
+@Electronic{Campi2014,
+  Title                    = {Comércio eletrônico alcança 51,3 mi de consumidores no Brasil},
+  Author                   = {Campi, Monica},
+  Language                 = {Português},
+  Month                    = {Março},
+  Organization             = {INFO},
+  Url                      = {http://info.abril.com.br/noticias/mercado/2014/03/comercio-eletronico-alcanca-51-3-mi-de-consumidores-no-brasil.shtml},
+  Year                     = {2014}
+}
+
